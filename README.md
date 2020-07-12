@@ -3,23 +3,24 @@
 This project contains a Forge app written in Javascript that uses the IBM Watson Natural Language Processing APIs for text analytics on Confluence documents.
 
 The app includes four modules:
+
 - Confluence Macro for Concepts
-  - Shows the high-level concepts in the content, it's relevance to the document, and a link to the DBpedia resource on the concept
-![Concepts Macro](./images/Concepts.PNG)
+    - Shows the high-level concepts in the content, it's relevance to the document, and a link to the DBpedia resource on the concept
+    - ![Concepts Macro](./images/Concepts.PNG)
 
 - Confluence Macro for Keywords
-  - Shows the important keywords in the content, it's relevance to the document, a sentiment score (positive, neutral, negative), and the emotion associated with the keyword in the content (sadness, joy, fear, disgust, anger)
-![Keywords Macro](./images/Keywords.PNG)
+    - Shows the important keywords in the content, it's relevance to the document, a sentiment score (positive, neutral, negative), and the emotion associated with the keyword in the content (sadness, joy, fear, disgust, anger)
+    - ![Keywords Macro](./images/Keywords.PNG)
 
 - Confluence Context Menu
-  - Shows the analysis of the emotional and language tones of the selected text
-![Context Menu](./images/Menu.PNG)
-![Menu Dialog](./images/Menu-Item.PNG)
+    - Shows the analysis of the emotional and language tones of the selected text
+    - ![Context Menu](./images/Menu.PNG)
+    - ![Menu Dialog](./images/Menu-Item.PNG)
 
 - Confluence Content Action
     - Shows the analysis of the emotional and language tones of the document
-![Content Action](./images/Action.PNG)
-![Action Modal](./images/Action-Item.PNG)
+    - ![Content Action](./images/Action.PNG)
+    - ![Action Modal](./images/Action-Item.PNG)
 
 ## Project
 
