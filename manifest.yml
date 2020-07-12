@@ -1,0 +1,35 @@
+permissions:
+  scopes:
+    - 'read:confluence-content.summary'
+modules:
+  'confluence:contextMenu':
+    - key: text-analytics-context-menu
+      function: menu
+      title: Text Analytics Tone Analysis
+      description: Shows analysis of emotional and language tones of the selected text
+  'confluence:contentAction':
+    - key: text-analytics-content-action
+      function: action
+      title: Text Analytics Tone Analysis
+      description: Shows analysis of emotional and language tones in the content
+  macro:
+    - key: text-analytics-macro-concepts
+      function: concepts
+      title: Text Analytics Concepts
+      description: Shows high-level concepts in the content
+    - key: text-analytics-macro-keywords
+      function: keywords
+      title: Text Analytics Keywords
+      description: Shows important keywords in the content
+  function:
+    - key: menu
+      handler: menu.run
+    - key: action
+      handler: action.run
+    - key: concepts
+      handler: concepts.run
+    - key: keywords
+      handler: keywords.run
+app:
+  id: 'ari:cloud:ecosystem::app/a76ce589-a1f8-41e5-9ae3-4844610219e0'
+  name: text-analytics
