@@ -2,7 +2,24 @@
 
 This project contains a Forge app written in Javascript that uses the IBM Watson Natural Language Processing APIs for text analytics on Confluence documents.
 
-See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
+The app includes four modules:
+- Confluence Macro for Concepts
+  - Shows the high-level concepts in the content, it's relevance to the document, and a link to the DBpedia resource on the concept
+![Concepts Macro](./images/Concepts.PNG)
+
+- Confluence Macro for Keywords
+  - Shows the important keywords in the content, it's relevance to the document, a sentiment score (positive, neutral, negative), and the emotion associated with the keyword in the content (sadness, joy, fear, disgust, anger)
+![Keywords Macro](./images/Keywords.PNG)
+
+- Confluence Context Menu
+  - Shows the analysis of the emotional and language tones of the selected text
+![Context Menu](./images/Menu.PNG)
+![Menu Dialog](./images/Menu-Item.PNG)
+
+- Confluence Content Action
+    - Shows the analysis of the emotional and language tones of the document
+![Content Action](./images/Action.PNG)
+![Action Modal](./images/Action-Item.PNG)
 
 ## Project
 
@@ -50,6 +67,10 @@ forge tunnel
 - Use the `forge deploy` command when you want to persist code changes.
 - Use the `forge install` command when you want to install the app on a new site.
 - Once the app is installed on a site, the site picks up the new app changes you deploy without needing to rerun the install command.
+
+## Documentation
+
+See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
 ## Support
 
