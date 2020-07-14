@@ -37,8 +37,8 @@ The project uses the following APIs:
 Set environment variables for API keys:
 
 ``` bash
-$ forge variables:set --encrypt NLU_API_KEY _z-fZ_InIQyIvl5KGaI3hxOXa1QhqQe2uxq4z5QYPyUv
-$ forge variables:set --encrypt TA_API_KEY m9d01FszvKRgwGlfow_ci01b0mtGdOVwpoZROgRUASGG
+$ forge variables:set --encrypt NLU_API_KEY <Your API key>
+$ forge variables:set --encrypt TA_API_KEY <Your API key>
 ```
 
 ## Requirements
